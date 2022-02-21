@@ -1,0 +1,42 @@
+:root {
+    --main-color: #EC9706;
+    --logo-text-color: #6A6A6A;
+    --secondary-color: #666666;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body,
+button
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+h1 {
+    font-size: 4.375rem; /* 70px */
+}
+h2 {
+    font-size: 2.25rem; /* 36 px*/
+}
+h3 {
+    font-size: 1.125rem; /* 18 px*/
+}
+h4 {
+    font-size: 1rem; /* 16 px*/
+}
+h5 {
+    font-size: 0.75rem; /* 12px */
+}
+button {
+    color: #EC9706;
+    border-radius: 1.25rem;
+    font-size: 1rem;
+}
