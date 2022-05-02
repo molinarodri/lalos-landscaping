@@ -3,15 +3,193 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lalo's Landscaping</title>
+        <title>Lalo Landscaping</title>
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="assets/fonts/fonts.css">
         <!-- Flickity Library -->
         <link rel="stylesheet" href="node_modules/flickity/dist/flickity.css" media="screen">
     </head>
     <body>
+        <!-- spacer -->
+        <div class="spacer hide-mob">
+            &nbsp;
+        </div>
+        <!-- Navigation bar -->
+        <header>
+            <div class="topNav">
+                <p><a href="tel:"><emphasis>Hablamos Español: </emphasis>xxx-xxx-xxxx</a></p>
+            </div>
+            <div class="container">
+                <div class="logo">
+                    <img src="assets/icons/logo.svg">
+                    <h2>Lalo Landscaping</h2>
+                </div>
+                <nav>
+                        <a href="index.html">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="gallery.html">Gallery</a>
+                        <a href="about-us.html">About Us</a>
+                        <a href="contact.html">Contact</a>
+                </nav>
+                <button class="hamburger">
+                    <div class="bar"></div>
+                </button>
+            </div>
+        </header>
+        <nav class="mobile-nav"> 
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about-us.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <!-- Main body -->
+        <main>
+            <section class="hero-section">
+                <div class="container">
+                    <div class="hero-col welcome">
+                        <h1>Welcome</h1>
+                        <p>We are a family business dedicated to keeping your property looking beautiful & working with you to transform it.</p>
+                        <button>FREE ESTIMATES</button>
+                    </div>
+                    <div class="hero-col service">
+                        <p><emphasis>Service Area: </emphasis>Portland, Beaverton, Hillsboro, Damascus, Oregon City, Fairview, Vancouver, Lake Oswego, Happy Valley, Estacada</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <h2>Services</h2>
+                    <div class="services-grid">
+                        <div class="service">
+                            <figure class="img-box">
+                                <img src="assets/img/services/david-mancini-5d0e2Y7Bclw-unsplash.jpg" alt="Website Service" class="img" />
+                                <figcaption>Mowing</figcaption>
+                            </figure>
+                        </div>
+                        <div class="service">
+                            <figure class="img-box">
+                                <img src="assets/img/services/rob-evel-O2Pn6LBp6Y0-unsplash.jpg" alt="Website Service" class="img" style="object-fit: cover;"/>
+                                <figcaption>Mulching landscapes</figcaption>
+                            </figure>
+                        </div>
+                        <div class="service">
+                            <figure class="img-box">
+                                <img src="assets/img/services/chang-qing-8oPubUm97Cc-unsplash.jpg" alt="Website Service" class="img" />
+                                <figcaption>Edging</figcaption>
+                            </figure>
+                        </div>
+                        <div class="service">
+                            <figure class="img-box">
+                                <img src="assets/img/services/henrique-paim-sew5dUh0_bg-unsplash.jpg" alt="Website Service" class="img" />
+                                <figcaption>Lawn maintenance</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <button class="service-btn">View All Services</button>
+            </section>
+            <section class="reviews">
+                <div class="container">
+                    <h2>Client testimonies</h2>
+                    <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+                    <div class="carousel-cell">
+                        <div class="review-container">
+                            <div class="top-container">
+                                <div class="top-left">
+                                    <h4>Jaqueline M.</h4>
+                                    <h4><em>Client</em></h4>
+                                </div>
+                                <div class="top-right">
+                                    <img src="assets/icons/avatar-1.svg">
+                                </div>
+                            </div>
+                            <div class="bottom-container">
+                                <h4><em>"Lalo landscaping is an awesome, professional, and budget friendly service.  We like the attention to details, and  extra touches on his service. You can notice right away that Lalo’s took care of your yard! A plus is the customer service response, always attentive. 
+                                    I highly recommend it ! Give yourself the chance to try a good, caring family owned service."</em></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="review-container">
+                            <div class="top-container">
+                                <div class="top-left">
+                                    <h4>Michael A.</h4>
+                                    <h4><em>Client</em></h4>
+                                </div>
+                                <div class="top-right">
+                                    <img src="assets/icons/avatar-2.svg">
+                                </div>
+                            </div>
+                            <div class="bottom-container">
+                                <h4><em>"Lalo Landscaping has done excellent work at my house.  Eduardo is hard working, detail oriented, and his pricing is always fair.  The projects Lalo Landscaping has completed for me have always exceeded expectations."</em></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="review-container">
+                            <div class="top-container">
+                                <div class="top-left">
+                                    <h4>Katherine A.</h4>
+                                    <h4><em>Client</em></h4>
+                                </div>
+                                <div class="top-right">
+                                    <img src="assets/icons/avatar-3.svg">
+                                </div>
+                            </div>
+                            <div class="bottom-container">
+                                <h4><em>"We've known Lalo and his family for years, and can't imagine going to anyone else for our yard care and landscaping needs. In fact, several of our neighbors use his service as well. Lalo brings such wonderful attention to detail and energy to any of the jobs we ask him to do. We always know that the outcome will be even better than we pictured. His integrity, warmth, reliability, and commitment to his clients and his work are unsurpassed, and we highly recommend Lalo's Landscaping to anyone who has yard care and landscaping needs. On top of the excellent work by Lalo and his employees, Lalo and his family are just wonderful people, and we are very grateful that we were referred to them in the first few months after buying our first home."</em></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="review-container">
+                            <div class="top-container">
+                                <div class="top-left">
+                                    <h4>Shirley B.</h4>
+                                    <h4><em>Client</em></h4>
+                                </div>
+                                <div class="top-right">
+                                    <img src="assets/icons/avatar-3.svg">
+                                </div>
+                            </div>
+                            <div class="bottom-container">
+                                <h4><em>"We're so grateful that we started with Lalo Landscaping last fall! They do an amazing job. Our yard has never looked as good as it does now!"</em></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell">
+                        <div class="review-container">
+                            <div class="top-container">
+                                <div class="top-left">
+                                    <h4>Kay S.</h4>
+                                    <h4><em>Client</em></h4>
+                                </div>
+                                <div class="top-right">
+                                    <img src="assets/icons/avatar-2.svg">
+                                </div>
+                            </div>
+                            <div class="bottom-container">
+                                <h4><em>"Eduardo has taken care of my yard for over 10 years. He is an enthusiastic, efficient, and very hard worker who produces professional results. He continues to do excellent work mowing and edging my lawn on a regular basis. He also does trimming and weeding, as well as extras, when necessary. He recently removed an old shed for me, leaving the area in pristine shape. I have always been extremely satisfied with Eduardo's work, and I highly recommend him."</em></h4>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- spacer -->
+        <div class="spacer hide-mob">
+            &nbsp;
+        </div>
+        <footer>
+            <div class="container">
+                <h4>©Lalo Landscaping</h4>
+            </div>
+        </footer>
 
         <!-- Flickity Library -->
         <script src="node_modules/flickity/dist/flickity.pkgd.min.js"></script>
+        <!-- js -->
+        <script src="js/main.js"></script>
     </body>
 </html>
