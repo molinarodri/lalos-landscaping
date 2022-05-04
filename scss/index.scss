@@ -489,7 +489,117 @@ main {
         }
     }
 }
-
+// for small screens
+@media (max-width: 377px) {
+    .reviews {
+        background-color: white;
+    
+        .container {
+            h2 {
+                font-size: 2.25rem;
+                font-weight: 700;
+                line-height: 43px;
+                margin-bottom: 16px;
+            }
+            .carousel {
+                margin: auto;
+                max-width: 400px;
+                height: 300px;
+                border-radius: 20%;
+                
+               /* picture */
+              .carousel-cell .p {
+                border-radius: 15px;
+                width: 201px;
+                height: 250px;
+                counter-increment: carousel-cell;
+              }
+              .carousel-cell {
+                margin-top: 35px;
+                margin-right: 35px;
+                margin-bottom: 35px;
+                float: right;
+                max-width: 235px;
+                width: 100%;
+                width: 235px;
+                height: 210px;
+                border-radius: 15px;
+                counter-increment: carousel-cell;
+                transition: all .3s ease;
+                opacity: 0;
+                background: white;
+                filter: blur(8px);
+              }
+              .carousel-cell.is-selected {
+                filter: blur(0);
+                opacity: 1;
+                background: white ;
+                transform: scale(1.1);
+                border: 2px solid #DBDBDB;
+            }
+              .flickity-button {
+                background: transparent;
+              }
+              .flickity-button:hover {
+                background: transparent;
+                color: rgb(0, 0, 0);
+              }
+              .flickity-button:active {
+                color: rgb(100, 98, 98);
+                outline: none;
+    
+              }
+              .flickity-button:focus {
+                outline: none;
+                box-shadow: none;
+              }
+              .flickity-prev-next-button {
+                width: 44px;
+                height: 44px;
+                outline: none;
+                margin: -20px;
+              }
+              .flickity-page-dots {
+                  bottom: 10px;
+              }
+            }   
+        }
+    }
+    .reviews .container .carousel .carousel-cell {
+        font-family: 'Rubik', sans-serif;
+        .review-container {
+            padding: 6.15px;
+    
+            .top-container {
+                padding-top: 6.15px;
+                padding-bottom: 6.15px;
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                .top-left {
+                    margin-left: 0px;
+                }
+                .top-left h4 {
+                    font-size: 1.42rem;
+                }
+                .top-right {
+                    margin-right: 0px;
+                }
+            }
+            .bottom-container {
+                padding-right: 4px;
+                height: 119px;            
+                overflow: scroll;
+            }
+        }
+        em {
+            font-weight: 300;
+            font-size: 1.25rem;
+        }
+    }
+}
 // review section
 .reviews {
     background-color: white;
@@ -596,6 +706,116 @@ main {
     em {
         font-weight: 300;
         font-size: 1.25rem;
+    }
+}
+// for larger screens
+@media (min-width: 1300px) {
+    .reviews {
+        background-color: white;
+    
+        .container {
+            h2 {
+                font-size: 2.25rem;
+                font-weight: 700;
+                line-height: 43px;
+                margin-bottom: 16px;
+            }
+            .carousel {
+                margin: auto;
+                max-width: 450px;
+                height: 340px;
+                border-radius: 20%;
+                
+               /* picture */
+              .carousel-cell .p {
+                border-radius: 15px;
+                width: 201px;
+                height: 250px;
+                counter-increment: carousel-cell;
+              }
+              .carousel-cell {
+                margin-top: 35px;
+                margin-right: 35px;
+                margin-bottom: 35px;
+                float: right;
+                max-width: 235px;
+                width: 100%;
+                width: 235px;
+                height: 245px;
+                border-radius: 15px;
+                counter-increment: carousel-cell;
+                transition: all .3s ease;
+                opacity: 0;
+                background: white;
+                filter: blur(8px);
+              }
+              .carousel-cell.is-selected {
+                filter: blur(0);
+                opacity: 1;
+                background: white ;
+                transform: scale(1.1);
+                border: 2px solid #DBDBDB;
+            }
+              .flickity-button {
+                background: transparent;
+              }
+              .flickity-button:hover {
+                background: transparent;
+                color: rgb(0, 0, 0);
+              }
+              .flickity-button:active {
+                color: rgb(100, 98, 98);
+                outline: none;
+    
+              }
+              .flickity-button:focus {
+                outline: none;
+                box-shadow: none;
+              }
+              .flickity-prev-next-button {
+                width: 44px;
+                height: 44px;
+                outline: none;
+              }
+              .flickity-page-dots {
+                  bottom: 10px;
+              }
+            }   
+        }
+    }
+    .reviews .container .carousel .carousel-cell {
+        font-family: 'Rubik', sans-serif;
+        .review-container {
+            padding: 13.15px;
+    
+            .top-container {
+                padding-top: 6.15px;
+                padding-bottom: 6.15px;
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                .top-left {
+                    margin-left: 0px;
+                }
+                .top-left h4 {
+                    font-size: 1.42rem;
+                }
+                .top-right {
+                    margin-right: 0px;
+                }
+            }
+            .bottom-container {
+                padding-right: 4px;
+                height: 119px;            
+                overflow: scroll;
+            }
+        }
+        em {
+            font-weight: 300;
+            font-size: 1.25rem;
+        }
     }
 }
 
