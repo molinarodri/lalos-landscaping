@@ -117,7 +117,7 @@ p {
         margin: 0 auto 16px;
         text-align: left;
         padding: 8px 16px;
-        color: #6A6A6A;
+        color: va(--logo-text-color);
 
         background-color: rgb(248, 244, 239);
         text-decoration: none;
@@ -159,7 +159,7 @@ header {
             
         }
         a:hover {
-            color: #EC9706;
+            color: var(--main-color);
         }
         p {
             text-align: right;
@@ -197,7 +197,7 @@ header {
 
             h2 {
                 margin-left: 8px;
-                color: #6A6A6A;
+                color: va(--logo-text-color);
                 font-weight: bold;
                 align-items: center;
                 @media (max-width: 392px) {
@@ -222,7 +222,7 @@ header {
                 font-weight: 400;
             }
             a:hover {
-                color: #EC9706;
+                color: var(--main-color);
             }
         }
      }
@@ -350,7 +350,7 @@ main {
     padding: 17px 18px 17px 18px;
     border-radius: 20px;
     border: none;
-    background-color: #EC9706;
+    background-color: var(--main-color);
     width: max-content;
     margin-left: 0;
     
