@@ -128,29 +128,25 @@ form {
     }
     input {
         height: 56px;
+        padding: 16px;
         width: 50vw;
         border-radius: 8px;
         border: 1px solid #CCCCCC;
         margin-bottom: 32px;
 
         @media(max-width: 600px) {
-            padding-left: 0px;
             width: 90vw;
-
         }
         @media(max-width: 400px) {
-            padding-left: 0px;
             width: 80vw;
-
         }
     }
     ::placeholder {
         color: #666666;
         font-size: 1rem;
-        text-indent: 16px;
 
         @media(max-width: 400px) {
-            padding-left: 0px;
+            padding-left: 8px;
             width: 80vw;
             overflow: hidden;
 
