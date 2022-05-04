@@ -1,0 +1,72 @@
+// banner
+.banner-section {
+        height: 146px;
+        background-image: url('../assets/img/services/david-mancini-5d0e2Y7Bclw-unsplash.jpg');
+        background-position: center right;
+        background-size: cover;
+        .container {
+            width: 100%;
+            display: flex;
+            height: inherit;
+            padding-left: 0;
+            padding-right: 0;
+            display: flex;
+
+            .banner-services {
+                margin-left: 0;
+                padding-left: 128px;
+                display: flex;
+                align-items: center;
+                @media (max-width: 1032px) {
+                    padding-left: 28px;
+                    padding-right: 28px;
+                    margin-left: 0;
+                }
+                h1 {
+                     /* Add the blur effect */
+                    backdrop-filter: blur(2.5px);
+                    border-radius: 20px;
+                    @media (max-width: 1032px) {
+                        font-size: 2.83rem;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+} 
+section.service-details-section {
+    margin-top: 29px;
+
+    h3 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.13rem;
+        line-height: 22px;
+        margin-top: 28px;
+        margin-bottom: 20px;
+        @media (max-width: 1032px) {
+            font-size: 1.1rem;
+        }
+
+        a.contact-link {
+            color: #0093FE;
+            text-decoration: none;
+        }
+        a.contact-link:hover {
+            color: #EC9706;
+        }
+    }
+    ul {
+        margin-left: 32px;
+        margin-bottom: 28px;
+
+        li {
+            line-height: 22px;
+            font-size: 1.13rem;
+        }
+    }
+    .my-own-button.gallery-btn {
+        margin-bottom: 28px;
+    }
+
+}   

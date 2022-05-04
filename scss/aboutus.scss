@@ -1,0 +1,160 @@
+// banner
+.banner-section {
+    height: 146px;
+    background-image: url('../assets/img/hero-images/joakim-finell-V0Jv9Z1s0K8-unsplash.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    .container {
+        width: 100%;
+        display: flex;
+        height: inherit;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+
+        .banner-services {
+            margin-left: 0;
+            padding-left: 128px;
+            display: flex;
+            align-items: center;
+            @media (max-width: 1032px) {
+                padding-left: 28px;
+                padding-right: 28px;
+                margin-left: 0;
+            }
+            h1 {
+                 /* Add the blur effect */
+                backdrop-filter: blur(2.5px);
+                border-radius: 20px;
+                @media (max-width: 1032px) {
+                    font-size: 2.83rem;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+} 
+section.aboutus-details-section {
+    margin-top: 29px;
+
+    h3 {
+        margin-top: 29px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.13rem;
+        line-height: 22px;
+        margin-top: 28px;
+        margin-bottom: 20px;
+        @media (max-width: 1032px) {
+            font-size: 1.1rem;
+        }
+
+        a.contact-link {
+            color: #0093FE;
+            text-decoration: none;
+        }
+        a.contact-link:hover {
+            color: #EC9706;
+        }
+    }
+
+    .my-own-button.gallery-btn {
+        margin-bottom: 28px;
+    }
+}
+img.profile {
+    width: 390px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+
+    .about-box {
+        background-color: white;
+        border-radius: 16px;
+        overflow: hidden;
+
+        .img-box {
+            display: block;
+            width: 100%;
+
+            .img.gallery-img {
+                display: block;
+                width: 390px;
+                height: 281px;  
+                object-fit: cover;
+                border: 1px solid rgb(219, 219, 219);
+                border-radius: 16px;
+            }
+
+            figcaption {
+                padding: 16px;
+                text-align: center;
+                font-family: 'Lato', sans-serif;
+                line-height: 22px;
+                font-size: 1.13rem;
+            }
+        }
+    }
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+        .about-box {
+            background-color: white;
+            border-radius: 16px;
+            overflow: hidden;
+
+            .img-box {
+                display: block;
+                width: 100%;
+
+                .img.gallery-img {
+                    display: block;
+                    width: 250px;
+                    height: 180px; 
+                    object-fit: cover;
+                    border: 1px solid #DBDBDB;
+                    border-radius: 16px;
+                }
+                figcaption {
+                    padding: 16px;
+                    text-align: center;
+                    font-family: 'Lato', sans-serif;
+                    line-height: 22px;
+                    font-size: 1.13rem;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+        .about-box {
+            background-color: white;
+            border-radius: 16px;
+            overflow: hidden;
+
+            .img-box {
+                display: block;
+                width: 100%;
+
+                .img {
+                    display: block;
+                    width: 215px;
+                    height: 155px; 
+                    object-fit: fill;
+                    border: 1px solid #DBDBDB;
+                    border-radius: 16px;
+                }
+                figcaption {
+                    padding: 16px;
+                    text-align: center;
+                    font-family: 'Lato', sans-serif;
+                    line-height: 22px;
+                    font-size: 1.13rem;
+                }
+            }
+        }
+    }
+}
