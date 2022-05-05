@@ -1,7 +1,6 @@
 
 :root {
     --main-color: #EC9706;
-    --logo-text-color: #6A6A6A;
     --secondary-color: #666666;
 }
 *,
@@ -117,7 +116,7 @@ p {
         margin: 0 auto 16px;
         text-align: left;
         padding: 8px 16px;
-        color: va(--logo-text-color);
+        color: #6A6A6A;
 
         background-color: rgb(248, 244, 239);
         text-decoration: none;
@@ -197,7 +196,7 @@ header {
 
             h2 {
                 margin-left: 8px;
-                color: va(--logo-text-color);
+                color: #6A6A6A;
                 font-weight: bold;
                 align-items: center;
                 @media (max-width: 392px) {
