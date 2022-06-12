@@ -16,3 +16,7 @@ I used Figma's free Blush plug in for my avatars. Wavy Buddies
 by Susana Salas offers doodle characters doing some online shopping! See https://blush.design/collections/0bopA8Y5vn29mdFBU2Br/wavy-buddies-illustrations for more details.
 
 Unsplash has over a million free high-resolution photos. All photos here are free to download and use under the Unsplash License. See https://unsplash.com/license for more details.
+
+# What is next?
+TODO:
+Improve my css to be more responsive and easier to maintain (release date: July 10th, 2022)
