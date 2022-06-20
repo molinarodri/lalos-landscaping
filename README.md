@@ -4,7 +4,7 @@ Lalo Landscaping is a Portland-based, family-owned business that keeps your prop
 I Designed, wireframed and prototyped in Figma here -> https://www.figma.com/file/0qW5OTE3Q14sMIYcGRQmxh/Landscaping?node-id=318%3A2656.
 
 # Resources
-Here are the technologies I used to build Lalo Landscaping (aside from HTML, SCSS, JS).
+Here are the technologies I used to build Lalo Landscaping (aside from HTML, CSS, JS).
 
 ***Tech***
 FormSubmit is a free service that offers easy form endpoints for your HTML forms. They email you the form submissions. See https://formsubmit.co/ for more details!
